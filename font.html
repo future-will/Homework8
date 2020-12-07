@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>font</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://indestructibletype.com/fonts/Bodoni/Bodoni.css" type="text/css" charset="utf-8" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm">
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item ml-auto">
+					<a class="nav-link" href="#">all fonts</a>
+				</li>
+				<li class="nav-item ml-auto">
+					<a class="nav-link" href="#">about</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="mainTitle row">
+		<a href="index.html" class="col-sm-2 offset-sm-3" id="homeIcon">
+			<div>
+				<h1>FONT</h1>
+				<h1>VIBE</h1>
+			</div>
+		</a>
+			<div class="col-sm-3">
+			<p id="bottomText">Based on the vibe of your design we think you should try...</p>
+		</div>
+	</div>
+	<div class="fontContent">
+		<div class="row">
+			<div class="col-md-6 fontSecOne">
+				<h3 id="bodoniTitle">Bodoni</h3>
+				<p class="fontInfo">Bodoni is a classic serif typeface that dates back to the late 19th century.  With its high contrast amd characteristic flat serif, Bodoni is considered on of the first modern typefaces.  It is best know for it use by high-fashion publications.  Bodoni’s elegance is best used for titles headers.</p>
+				
+			</div>
+			<div class="col-md-6 row fontSecOne">
+				<img class="fontExample" src="images/bodoniExamples.png">		
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 fontSecThree">
+				<p class="fontInfo">best when paired with...</p>
+				<h3 id="pairLargeBodoni">Bodoni</h3>
+				<p id="futuraSmallText">Futura is always a great choice to pair with a high contrast title font </p>
+				<h3 id="pairTitleMontserrat">Montserrat</h3>
+				<p id="bodoniSmallText">Bodoni Book makes a great subheader when paired with a strong sans serif </p>
+				
+			</div>
+			<div class="col-md-5 offset-md-1 fontSecFour">
+				<p class="fontInfo">bodoni in the wild...</p>
+				<div class="fontImages">
+					<img class="fontImage" src="images/mammMia.png">
+					<img class="fontImage" src="images/vogueCover.png">
+				</div>
+				
+			</div>
+		</div>
+		<button type="button" class="btn btn-sm vibeBtn" value="vibe" onclick="document.location='questions.html'">change my vibe</button>
+		<!-- <div class="col-6 offset-6 optionNext" id="nextButtonParent">
+				<button type="button" class="btn btn-sm nextBtn" id="nextButton" value="next" onclick="setAnswer()" disabled>next</button>
+		</div> -->
+	</div>
+
+</body>
+</html>

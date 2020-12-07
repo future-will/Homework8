@@ -1,0 +1,251 @@
+/*html, body {
+    height: 100%; width: 100%;
+    padding: 0; margin: 0;
+}*/
+/*@font-face{
+
+	src: url(fonts/bodonimoda24pt-italic-webfont.woff);
+	font-family: bodoniItal;
+}*/
+@font-face{
+	src: url(fonts/TT0140M.TTF);
+	font-family: futura;
+}
+body{
+	/*height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;*/
+	background-color: #F2F2F2;
+	font-family: 'Roboto', sans-serif;
+	color: #515151;
+	/*background-image: url(images/landingPageWatermark.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 90%;*/
+}
+/*.navbar-toggler{
+	float: right!important;
+}*/
+a{
+	text-decoration: none;
+	color: #515151;
+}
+a:hover{
+	color: #DE5860;
+	transition: .3s;
+}
+.mainTitle{
+	margin-top: 12%;
+}
+.mainTitle h1{
+	font-size: 40px;
+	text-align: right;
+	font-weight: 700;
+	margin: 0, 0, 16px, 0;
+	padding: 0;
+	line-height: .75em;
+}
+
+.mainTitle p{
+	font-size: 14px;
+	font-weight: 300;
+	
+	padding: 0;
+	line-height: 1em;
+}
+
+.mainTitle .col-md-4{
+	padding-left: 10px; 
+	padding-right: 8px; 
+	word-spacing: 1px;
+}
+.floatingButton{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: center;
+}
+.btn-lg{
+	background: #515151;
+	color: #f2f2f2;
+	font-weight: 300;
+	font-size: 20px;
+
+}
+.btn-lg:hover{
+	
+	background: #DE5860;
+	color: #f2f2f2;
+	box-shadow: 0px 0px 8px 2px rgba(255,152,95,.5);
+	transition: box-shadow 1s, background .3s;
+	
+}
+.btn-lg:focus{
+	
+	background: #DE5860;
+	color: #f2f2f2;
+	box-shadow: 0px 0px 8px 2px rgba(255,152,95,0);
+	transition: box-shadow 1s;
+	
+}
+#watermark{
+	width: 100%;
+}
+#homeIcon{
+	text-decoration: none!important;
+}
+.qestionBox{
+	margin-top: 6%;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	background-color: white;
+	width: 100%;
+	border-radius: 8px;
+}
+.progress-bar{
+	text-align: left;
+	font-weight: 500;
+	padding-left: 5%;
+	background: linear-gradient(90deg, rgba(255,152,95,1) 0%, rgba(222,88,96,1) 100%);
+}
+.designQuestion{
+	margin-top: 10%; 
+}
+.questionBtn{
+	font-weight: 300;
+	font-size: 1rem;
+	width: 120px;
+}
+.questionOptions{
+	margin-top: 5%;
+}
+.questionOptions div{
+	
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.orMark{
+	padding-top: 20px;
+}
+.optionNext{
+	margin-top: 10%;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 16.6%;
+}
+.nextBtn{
+	background: #515151;
+	color: #f2f2f2;
+	font-weight: 300;
+
+}
+.nextBtn:hover{
+	background: #FF985F;
+	color: #f2f2f2;
+	box-shadow: 0px 0px 8px 2px rgba(255,152,95,.5);
+	transition: box-shadow 1s, background .3s;
+
+}
+.nextBtn:disabled{
+	background: #C4C4C4;
+	color: #f2f2f2;
+	font-weight: 300;
+}
+.nextBtn:disabled:hover{
+	background: #C4C4C4;
+	color: #f2f2f2;
+	font-weight: 300;
+	box-shadow: 0px 0px 8px 2px rgba(255,255,255,0);
+}
+#bodoniTitle{
+	font-family: 'Bodoni 24';
+	font-size: 60px;
+}
+#bottomText{
+	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	margin-bottom: 8px;
+}
+.fontContent{
+	width: 70%;
+	margin: 6% auto auto auto;
+	/*background-color: white;*/
+	max-width: 720px;
+}
+.fontInfo{
+	font-size: 14px;
+	font-weight: 300;
+	
+	padding: 0 10% 5% 0;
+	line-height: 1em;
+}
+.fontExample{
+	height: 180px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#pairTitleMontserrat{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0px;
+}
+#pairLargeBodoni{
+	font-family: 'Bodoni 24';
+	margin-bottom: 0px;
+}
+#futuraSmallText{
+	font-family: futura;
+	font-size: 14px;
+}
+#bodoniSmallText{
+	font-family: 'Bodoni 24';
+	font-size: 14px;
+}
+.fontSecThree{
+	margin-top: 2%;
+	background-color: white;
+	padding-top: 5%;
+	border-radius: 8px;
+	padding-bottom: 5%;
+}
+.fontSecFour{
+	margin-top: 2%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.fontImages{
+	display: flex;
+}
+.fontImage{
+	height: 180px;
+	margin-right: 20px;
+}
+.vibeBtn{
+	margin-top: 6%;
+	background: #515151;
+	color: #f2f2f2;
+	font-weight: 300;
+	margin-bottom: 20%;
+}
+.vibeBtn:hover{
+	background: #60BFC0;
+	color: #f2f2f2;
+	box-shadow: 0px 0px 8px 2px rgba(122,203,193,.5);
+	transition: box-shadow 1s, background .3s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
