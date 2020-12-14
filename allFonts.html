@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Fonts</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://indestructibletype.com/fonts/Bodoni/Bodoni.css" type="text/css" charset="utf-8" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;600;700&family=Nixie+One&family=Oswald:wght@300;400;500&family=Patua+One&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<!-- this is a very simple page but I feel it is important as a heuristic concer to be able to freely navigate to the fonts -->
+<!-- there are only 4 currently because the I feel the point of the site is conveyed with these 4 fonts and the JS file. I would take WAY too long to create the pages for all possible fonts -->
+<body>
+	<nav class="navbar navbar-expand-sm">
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item ml-auto">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item ml-auto">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="mainTitle row">
+		<a href="index.html" class="col-md-2 offset-md-3" id="homeIcon">
+			<div id="homeLogo">
+				<h1>FONT</h1>
+				<h1>VIBE</h1>
+			</div>
+		</a>
+			<div class="col-md-3" id="titleText">
+			<p id="bottomText">Below are all the fonts we currently vibe with</p>
+		</div>
+	</div>
+	<div class="allFontsContent">
+		<div class="row toppRow">
+			<div class="col-md-6 allFontsBaskerville">
+				<h3 id="baskervilleTitle">Baskerville</h3>
+				<button type="button" class="btn btn-lg questionBtn" id="secondBtn" value="2" onclick="document.location='baskerville.html'">More Info</button>
+			</div>
+			<div class="col-md-3 allFontsBodoni">
+				<h3 id="bodoniTitle">Bodoni</h3>
+				<button type="button" class="btn btn-lg questionBtn" id="secondBtn" value="2" onclick="document.location='font.html'">More Info</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 allFontsMontserrat">
+				<h3 id="montTitle">Montserrat</h3>
+				<button type="button" class="btn btn-lg questionBtn" id="secondBtn" value="2" onclick="document.location='montserrat.html'">More Info</button>
+			</div>
+			<div class="col-md-3 allFontsOswald">
+				<h3 id="oswaldTitle">Oswald</h3>
+				<button type="button" class="btn btn-lg questionBtn" id="secondBtn" value="2" onclick="document.location='oswald.html'">More Info</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
